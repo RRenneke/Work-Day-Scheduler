@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <!--Area at top of page, date will change-->
+    <header id="headingArea">
+      <h1>Work Day Scheduler</h1>
+      <p id ="instructions">Use this interactive calendar to schedule your workday.</p>
+      <p id ="instructions">Enter today's tasks below.</p>
+      <p id="currentDate"></p>
+    </header>
+    
+    <!--Rows for each, task area, and save -->
+    <container class="timeTable">
+
+    <!--12 column system, description area needs most amount of room-->      
+      <div class="row">
+        <!--Time display-->
+        <h2 class="col-2">9:00 AM</h2>
+        <!--Task display/input area, with verabige so the user knows where to type-->
+        <input id="input9" placeholder="Enter task here" class="col-9 task"></input>
+        <!--Save button-->
+        <button id="btn9" class="col-1">Save</button>
+      </div>
+
+      <div class="row">
+        <h2 class="col-2">10:00 AM</h2>
+        <input id="input10" placeholder="Enter task here" class="col-9 task" time="10"></input>
+        <button id="btn10" class="col-1">Save</button>
+      </div>
+
+      <div class="row">
+        <h2 class="col-2">11:00 AM</h2>
+        <input id="input11" placeholder="Enter task here" class="col-9 task" time="11"></input>
+        <button id="btn11" class="col-1">Save</button>
+      </div>
+
+      <div class="row">
+        <h2 class="col-2">12:00 PM</h2>
+        <input id="input12" placeholder="Enter task here" class="col-9 task" time="12"></input>
+        <button id="btn12" class="col-1">Save</button>
+      </div>
+
+      <div class="row">
+        <h2 class="col-2">1:00 PM</h2>
+        <input id="input1" placeholder="Enter task here" class="col-9 task" time="13"></input>
+        <button id="btn1" class="col-1">Save</button>
+
+      </div>
+
+      <div class="row">
+        <h2 class="col-2">2:00 PM</h2>
+        <input id="input2" placeholder="Enter task here" class="col-9 task" time="14"></input>
+        <button id="btn2" class="col-1">Save</button>
+
+      </div>
+
+      <div class="row">
+        <h2 class="col-2">3:00 PM</h2>
+        <input id="input3" placeholder="Enter task here" class="col-9 task" time="15"></input>
+        <button id="btn3" class="col-1">Save</button>
+
+      </div>
+
+      <div class="row">
+        <h2 class="col-2">4:00 PM</h2>
+        <input id="input4" placeholder="Enter task here" class="col-9 task" time="16"></input>
+        <button id="btn4" class="col-1">Save</button>
+
+      </div>
+
+      <div class="row">
+        <h2 class="col-2">5:00 PM</h2>
+        <input id="input5" placeholder="Enter task here" class="col-9 task" time="17"></input>
+        <button id="btn5" class="col-1">Save</button>
+
+      </div>
+
+    </container>
+
+    <script src="script.js"></script>
+  </body>
+</html>
