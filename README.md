@@ -1,10 +1,12 @@
 User Story: 
+
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
 
 Acceptance Criteria:
+
 GIVEN I am using a daily planner to create a schedule
 
 WHEN I open the planner
@@ -27,6 +29,7 @@ THEN the saved events persist
 
 
 Outstanding:
+
 Figure out how to incorporate AM and PM to the hour
 Formating for small screen is ugly
 Review local stoarge lessons
