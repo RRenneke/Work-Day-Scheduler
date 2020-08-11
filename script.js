@@ -137,7 +137,7 @@ function getInputedTask() {
 
 }
 
-//function uses variable to post value in local storage.
+//function uses variable to post value in local storage
 function postInputedTask() {
     localStorage.setItem('task9', 'input9.value');
     localStorage.setItem('task10', 'input10.value');
@@ -148,7 +148,6 @@ function postInputedTask() {
     localStorage.setItem('task3', 'input3.value');
     localStorage.setItem('task4', 'input4.value');
     localStorage.setItem('task5', 'input5.value');
-
   }
 
   //make a call to get the current date. 
