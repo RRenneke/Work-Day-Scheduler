@@ -135,7 +135,7 @@ function getInputedTask() {
     document.getElementById('input4').value = task4;
     document.getElementById('input5').value = task5;
 
-}
+};
 
 //function uses variable to post value in local storage
 function postInputedTask() {
