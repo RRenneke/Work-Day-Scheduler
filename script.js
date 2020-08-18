@@ -114,7 +114,7 @@ if (currentHour > 5) {
 //function retrieves data from local storage to create a new variable
 //https://developer.mozilla.org/en-US/docs/Web/API/Storage/getItem
 
-function getInputedTask() {
+function getInputTask() {
     var task9 = localStorage.getItem('input9');
     var task10 = localStorage.getItem('input10');
     var task11 = localStorage.getItem('input11');
@@ -138,7 +138,7 @@ function getInputedTask() {
 };
 
 //function uses variable to post value in local storage
-function postInputedTask() {
+function postInputTask() {
     localStorage.setItem('task9', 'input9.value');
     localStorage.setItem('task10', 'input10.value');
     localStorage.setItem('task11', 'input11.value');
@@ -152,5 +152,5 @@ function postInputedTask() {
 
   //make a call to get the current date. 
   new Date()
-  getInputedTask()
-  postInputedTask() 
+  getInputTask()
+  postInputTask() 
